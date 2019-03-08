@@ -230,6 +230,11 @@ i.fa.fa-diamond {
     margin: 15px 0;
     color: #fff;
 }
+i.fa.fa-slideshare {
+    font-size: 65px;
+    margin: 15px 0;
+    color: #fff;
+}
 .price-grid p {
     color: #fff;
     padding: 10px 20px;
@@ -247,6 +252,10 @@ i.fa.fa-diamond {
 .price-block2 {
     background: #49a942;
     background: rgba(73, 169, 66, 0.69);
+}
+.price-block3 {
+    background: #F7D358;
+    background: rgba(247, 211, 88, 0.69);
 }
 /* pricing tables */
 
@@ -413,6 +422,10 @@ input[type="submit"], a {
 		font-size: 60px;
 		margin: 10px 0;
 	}
+	i.fa.fa-slideshare {
+		font-size: 60px;
+		margin: 10px 0;
+	}
 	.price-block {
 		padding: 20px 15px;
 	}
@@ -428,6 +441,10 @@ input[type="submit"], a {
 }
 @media (max-width: 600px) {
 	i.fa.fa-diamond {
+		font-size: 50px;
+		margin: 8px 0;
+	}
+	i.fa.fa-slideshare {
 		font-size: 50px;
 		margin: 8px 0;
 	}
