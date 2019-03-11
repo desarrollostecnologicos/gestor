@@ -42,7 +42,7 @@
 				 <div class="price-grid">
 					<div class="price-block agile">
 						<div class="price-gd-top pric-clr1">
-							<i class="fa fa-diamond" aria-hidden="true"></i>
+							<img src="./images/asis.png" style="max-width: 100%;height: 150px;">
 							<h4>ASIS</h4>
 							<p></p>
 							
@@ -55,7 +55,7 @@
 				<div class="price-grid ">
 					<div class="price-block price-block1 agile">
 						<div class="price-gd-top pric-clr2">
-							<i class="fa fa-diamond" aria-hidden="true"></i>
+							<img src="./images/emergencia.png" style="max-width: 100%;height: 150px;">
 							<h4>EMERGENCIA</h4>
 							<p></p>
 							
@@ -69,7 +69,7 @@
 				<div class="price-grid lost">
 					<div class="price-block price-block2 agile">
 						<div class="price-gd-top pric-clr3">
-							<i class="fa fa-diamond" aria-hidden="true"></i>
+							<img src="./images/brotes.png" style="max-width: 100%;height: 150px;">
 							<h4>BROTES</h4>
 							<p></p>
 						
@@ -83,7 +83,7 @@
 				<div class="price-grid ">
 					<div class="price-block price-block3 agile">
 						<div class="price-gd-top pric-clr2">
-							<i class="fa fa-diamond" aria-hidden="true"></i>
+							<img src="./images/documentos.png" style="max-width: 100%;height: 150px;">
 							<h4>DOCUMENTOS</h4>
 							<p></p>
 							
