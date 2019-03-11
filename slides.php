@@ -38,54 +38,32 @@
 <!-- /plans -->
 <div class="plans-section">
 	<div class="plans-main">
-		<h1 class="w3l-inner-h-title">ASIS</h1>
-				 <div class="price-grid">
-					<div class="price-block agile">
-						<div class="price-gd-top pric-clr1">
-							<i class="fa fa-slideshare" aria-hidden="true"></i>
-							<h4 style="font-size:26px">Presentaciones</h4>
-							<p></p>
-							
-							<div class="price-selet pric-sclr1">		    			   
-								<a href="./slides.php" class="w3_agileits_sign_up2" >Acceder</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="price-grid ">
-					<div class="price-block price-block1 agile">
-						<div class="price-gd-top pric-clr2">
-							<i class="fa fa-link" aria-hidden="true"></i>
-							<h4>Enlaces</h4>
-							<p></p>
-							
-							<div class="price-selet pric-sclr2">
-								<a href="./links.php" class="w3_agileits_sign_up2 popup-with-zoom-anim ab scroll" >Acceder</a>
+		<h1 class="w3l-inner-h-title">Presentaciones</h1>
 
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="price-grid lost">
-					<div class="price-block price-block2 agile">
-						<div class="price-gd-top pric-clr3">
-							<i class="fa fa-video-camera" aria-hidden="true"></i>
-							<h4>Videos</h4>
-							<p></p>
-						
-							<div class="price-selet pric-sclr2">
-								<a href="./videos.php" class="w3_agileits_sign_up2 popup-with-zoom-anim ab scroll" >Acceder</a>
+			<?php
+			$dir    = './presentaciones/';
+			$archivos1 = scandir($dir);
 
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="clear"></div>
-				
+
+			foreach ($archivos1 as $i => $archivo) {
+				if (stripos($archivo, 'jpg') == false) {
+
+					if ($archivo != '.' && $archivo != '..' ){
+						$ruta_archivo = $dir.$archivo;
+						$pos = strpos($archivo, '.');
+						$nombre = substr($archivo, 0, $pos);
+						echo '<div class="price-grid"><div class="price-block agile"><div class="price-gd-top pric-clr1"><img src="./presentaciones/'.$nombre.'.JPG" style="max-width: 100%;height: 150px;"><h4>PPT</h4><p>'.$nombre.'</p>';
+						echo "<div class='price-selet pric-sclr1'><a href='".$ruta_archivo."' target='_blank' class='w3_agileits_sign_up2'>Ver</a></div>"; 
+						echo '</div></div></div>';
+					}
+				}
+			}
+
+			?>
+			<div class="clear"></div>	
 	</div>
 </div>
 <!-- //plans -->
-	
 <!-- copyright -->
 <div class="copyright-agile">
 	<p>&copy; 2019 Gestor de Presentaciones. All rights reserved | Design by <a href="#">DT</a></p>

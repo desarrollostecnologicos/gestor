@@ -235,6 +235,16 @@ i.fa.fa-slideshare {
     margin: 15px 0;
     color: #fff;
 }
+i.fa.fa-link {
+    font-size: 65px;
+    margin: 15px 0;
+    color: #fff;
+}
+i.fa.fa-video-camera {
+    font-size: 65px;
+    margin: 15px 0;
+    color: #fff;
+}
 .price-grid p {
     color: #fff;
     padding: 10px 20px;
@@ -423,6 +433,14 @@ input[type="submit"], a {
 		margin: 10px 0;
 	}
 	i.fa.fa-slideshare {
+		font-size: 60px;
+		margin: 10px 0;
+	}
+	i.fa.fa-link {
+		font-size: 60px;
+		margin: 10px 0;
+	}
+	i.fa.fa-video-camera {
 		font-size: 60px;
 		margin: 10px 0;
 	}
